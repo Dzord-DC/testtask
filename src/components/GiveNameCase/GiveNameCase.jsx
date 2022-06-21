@@ -8,8 +8,8 @@ export const GiveNameCase =({onClickAction})=>{
 
     return (
         <div className="darkshell">
-            <input value = {name} onChange={handleCheng} type='text'/>
-            <button onClick={()=>onClickAction(name)}>R</button>
+            <input value = {name} onChange={handleCheng} type='text' className="give-name-input"/>
+            <button className="control-button" onClick={()=>onClickAction(name)}>Add</button>
         </div>
     )
 }
